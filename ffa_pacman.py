@@ -5,6 +5,9 @@ from stable_baselines3 import DQN
 from stable_baselines3.common.env_util import DummyVecEnv
 from stable_baselines3.common.monitor import Monitor
 import gym
+import sys
+
+sys.stdout = open('output.txt', 'w')
 
 class FFAPacman(ParallelEnv):
     metadata = {'render_modes': ['human'], 'is_parallelizable': True}
