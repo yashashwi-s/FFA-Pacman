@@ -29,7 +29,7 @@ The state of the environment is represented by a 2D grid. Each cell in the grid 
 
 - An empty cell (`0`).
 - An energy ball (`1`).
-- An agent, with each agent represented by a unique integer starting from `2`.
+- An agent, with each agent represented by a unique integer starting from (`2`).
 
 ### Actions
 
